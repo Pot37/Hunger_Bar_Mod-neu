@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "hungerfoods",
+	"version": "${version}",
+	"name": "Hunger Foods",
+	"description": "Zeigt nach dem Essen die passende Hungerleiste (Steak, Karotte, ...).",
+	"authors": ["Du"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["de.hungerfoods.HungerFoodsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
